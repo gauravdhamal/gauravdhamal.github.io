@@ -4,56 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Home</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <title>My Portfolio</title>
   </head>
   <body>
-    <!-- Navbar section -->
-    <div id="navbar">
-      <div id="navbardiv1">
-        <a href="index.html">Gaurav Dhamal</a>
-      </div>
-      <div id="navbardiv2">
-        <a href="">Home</a>
-        <a href="">maina>
-        <a href="">Contact</a>
-      </div>
-      <div id="navbardiv3">
-        <a href="">Let's talk</a>
-      </div>
+    <!-- Navbar section starts -->
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
     </div>
-
-    <!-- main section -->
-    <div id="main">
-      <div id="maindiv1">
-        <h1>Hi, I'm GAURAV DHAMAL.</h1>
-
-        <h1>Full Statck Java Developer</h1>
-
-        <p id="mainwebback">WEB DEVELOPMENT || BACKEND</p>
-
-        <p><button>Download CV</button> <button>Connect</button></p>
-      </div>
-      <div id="maindiv2">
-        <img src="images/abtme.png" alt="" />
-      </div>
-    </div>
-
-    <!-- About me section -->
-    <div id="aboutme">
-      <h2>About Me...</h2>
-      <div id="aboutmediv">
-        <div id="aboutmediv1"><img src="images/myPic.png" alt=""></div>
-        <div id="aboutmediv2">
-          <p id="mainsummary">
-            Gaurav Dhamal is Full Stack Web Developer, With a diverse range of
-            skills including Java, SpringBoot, MySQL, HTML, CSS, and JavaScript.
-          </p>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo"><a href="index.html">Gaurav Dhamal</a></div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Projects</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#education" class="menu-btn">Education</a></li>
+          <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
         </div>
       </div>
-    </div>
-    
+    </nav>
+    <!-- Navbar section ends -->
+
+    <!--- home section start --->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Gaurav Dhamal.</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="https://www.linkedin.com/in/gauravdhamal/" target="_blank"
+            >Let's Talk...</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--- home section end --->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="/images/abtme.png" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Gaurav Bajirao Dhamal and I'm a <span class="typing-2"></span>
+            </div>
+            <p>
+              Full stack Java Developer, With a diverse range of skills
+              including Java, SpringBoot, MySQL, HTML, CSS and JavaScript. Very
+              eager to learn new things, Self motivated Programmer.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1XL9YXyiaxnCgdVV-P2Z9ImdN1PmnumS4/view?usp=sharing"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- project section start -->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">My Projects</h2>
+        <div class="serv-content">
+          <!-- Java project space -->
+          <div class="card">
+            <div class="box">
+              <div class="text">Reserved space for JAVA Project</div>
+              <p>java description</p>
+
+              <a href="provide here git hub link" target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- big basket space -->
+          <div class="card">
+            <div class="box">
+              <div class="text">Big Basket Clone</div>
+              <p>
+                Big Basket is India's largest online grocery shop.Collaborative
+                project of Big-Basket clone. Project is purely based on HTML,
+                CSS & JavaScript. Build in 4 days with 5 team members.
+              </p>
+              <a
+                href="https://monumental-custard-8e388e.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i
+              ></a>
+              <a
+                href="https://github.com/rajashekharms369/Project_Big-Basket"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Unbounce clone space -->
+          <div class="card">
+            <div class="box">
+              <div class="text">Unbounce Clone</div>
+              <p>
+                Unbounce is a canadian based company which provide service by
+                building web pages for Clients. Collaborative project made along
+                with 4 team members by using HTML, CSS & JavaScript.
+              </p>
+              <a
+                href="https://dancing-croquembouche-c5e4fb.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i
+              ></a>
+              <a
+                href="https://github.com/gauravdhamal/abhorrent-car-1323"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- For extra project or mini Project -->
+          <div class="card">
+            <div class="box">
+              <div class="text">project 4</div>
+              <p>project description</p>
+              <a href="netlify" target="_blank"
+                ><i class="fa-solid fa-eye"></i
+              ></a>
+              <a href="github" target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section ends -->
   </body>
 </html>
-
-
