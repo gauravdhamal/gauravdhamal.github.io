@@ -294,6 +294,20 @@ section .title::after {
 .services .serv-content .card:hover {
   background: #fb8122;
 }
+
+.services .serv-content .cardjava:hover {
+}
+
+.services .serv-content .cardbigbasket:hover {
+  background: url("https://img.etimg.com/thumb/msid-64378831,width-300,imgsize-35122,,resizemode-4,quality-100/bb.jpg")
+    no-repeat center;
+}
+
+.services .serv-content .cardunbounce:hover {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGAT8AmuFfdfTy7r33KfHFTylKpHkdfJPZqg&usqp=CAU")
+    no-repeat center;
+}
+
 .services .serv-content .card .box {
   transition: all 0.3s ease;
 }
@@ -470,6 +484,20 @@ section .title::after {
 .services .serv-content .card:hover {
   background: #fb8122;
 }
+
+.services .serv-content .cardjava:hover {
+}
+
+.services .serv-content .cardbigbasket:hover {
+  background: url("https://img.etimg.com/thumb/msid-64378831,width-300,imgsize-35122,,resizemode-4,quality-100/bb.jpg")
+    no-repeat center;
+}
+
+.services .serv-content .cardunbounce:hover {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGAT8AmuFfdfTy7r33KfHFTylKpHkdfJPZqg&usqp=CAU")
+    no-repeat center;
+}
+
 .services .serv-content .card .box {
   transition: all 0.3s ease;
 }
