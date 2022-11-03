@@ -560,6 +560,10 @@ section .title::after {
 }
 
 /* contact section styling */
+#gitstrekdiv {
+  display: flex;
+  justify-content: center;
+}
 .contact .title::after {
   content: "Get in touch";
 }
@@ -778,6 +782,12 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  #gitstrekdiv {
+    display: block;
+  }
+  .gitstrek {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -815,5 +825,11 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  #gitstrekdiv {
+    display: block;
+  }
+  .gitstrek {
+    width: 100%;
   }
 }
