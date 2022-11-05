@@ -85,7 +85,7 @@ section .title::after {
 /* navbar styling */
 .navbar {
   /* border: 1px solid red; */
-  background-color: #fb8122;
+  /* background-color: #fb8122; */
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -127,7 +127,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: black;
+  color: #fb8122;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -684,11 +684,17 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .gitstrek {
+    width: 50%;
+  }
 }
 
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
+  }
+  .gitstrek {
+    width: 50%;
   }
 }
 @media (max-width: 947px) {
@@ -754,6 +760,7 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+    margin-top: 35px;
   }
 
   .about .about-content .right .text {
@@ -763,6 +770,9 @@ footer span a:hover {
   }
   .about .about-content .right .text span {
     color: #fb8122;
+  }
+  .gitstrek {
+    width: 50%;
   }
 }
 
@@ -781,6 +791,9 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
+  }
+  #gitstrekdiv {
+    display: block;
   }
   #gitstrekdiv {
     display: block;
