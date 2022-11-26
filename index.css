@@ -678,6 +678,11 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+.hero-img {
+  width: fit-content;
+  text-align: center;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -687,6 +692,10 @@ footer span a:hover {
   .gitstrek {
     width: 50%;
   }
+
+  .hero-img {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 991px) {
@@ -695,6 +704,9 @@ footer span a:hover {
   }
   .gitstrek {
     width: 50%;
+  }
+  .hero-img {
+    width: fit-content;
   }
 }
 @media (max-width: 947px) {
@@ -774,6 +786,9 @@ footer span a:hover {
   .gitstrek {
     width: 50%;
   }
+  .hero-img {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 690px) {
@@ -800,6 +815,9 @@ footer span a:hover {
   }
   .gitstrek {
     width: 100%;
+  }
+  .hero-img {
+    width: fit-content;
   }
 }
 
@@ -844,5 +862,8 @@ footer span a:hover {
   }
   .gitstrek {
     width: 100%;
+  }
+  .hero-img {
+    width: fit-content;
   }
 }
